@@ -1,7 +1,7 @@
 ## Olá! Eu sou o Vinicius!
 <div>
  <a href="https://github.com/shabazzBr">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shabazzBr&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shabazzBr&show_icons=true&theme=white&include_all_commits=true&count_private=true"/>
 </div>
   
 <div style="display: inline_block"><br>
