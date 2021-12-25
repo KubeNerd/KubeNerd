@@ -17,6 +17,8 @@
     <img align="center" alt="Vinicius-Nodejs" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" /> 
    <img align="center" alt="Vinicius-Python" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
  </div>
+ 
+ <h2> Redes Sociais</h2>
 <div><br/>
 <a href="https://www.linkedin.com/in/vinicius-p-538340ba" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
