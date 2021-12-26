@@ -1,7 +1,9 @@
 <h1>Olá! Eu sou o Vinicius!</h1>
+<h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabelho na empresa Processor atuando com Analista de Sistemas.</p>
 
 <em/>
+<h2><strong>Atividades:</strong></h2>
 <div>
  <a href="https://github.com/shabazzBr">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shabazzBr&show_icons=true&theme=white&include_all_commits=true&count_private=true"/>
@@ -11,7 +13,8 @@
      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=dark"/>
 </div>
  <em/>
- <h2>Sou apaixonado por tecnlogia e desenvolvimento web. Listei abaixo algumas tecnologias que atualmente estudo.</h2>
+ <h2><strong>Sobre mim:</strong></h2>
+ <p>Sou apaixonado por tecnlogia e desenvolvimento web. Listei abaixo algumas tecnologias que atualmente estudo.</p>
  <div style="display: inline_block"><br>
     <img align="center" alt="Vinicius-HML" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /> 
     <img align="center" alt="Vinicius-CSS" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /> 
