@@ -11,8 +11,6 @@
 <div style="display: inline_block"><br>
      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=dark"/>
 </div>
- <h2><strong>Sobre mim:</strong></h2>
- <p>Sou apaixonado por tecnlogia e desenvolvimento web e Tesde de Software</p>
  <div style="display: inline_block"><br>
     <img align="center" alt="Vinicius-HML" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /> 
     <img align="center" alt="Vinicius-CSS" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /> 
@@ -24,6 +22,12 @@
    <img align="center" alt="Vinicius-Python" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
  </div>
   <em/>
+ 
+  <h2><strong>Sobre mim:</strong></h2>
+ <p>Sou apaixonado por tecnlogia e desenvolvimento web e Tesde de Software</p>
+ 
+ 
+ 
  <h2> Redes Sociais</h2>
   <div><br/>
       <a href="https://www.linkedin.com/in/vinicius-p-538340ba" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" ></a>
