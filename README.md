@@ -24,7 +24,7 @@
   <em/>
  
   <h2><strong>Sobre mim:</strong></h2>
- <p>Sou apaixonado por tecnlogia e desenvolvimento web e Tesde de Software</p>
+ <p>Sou apaixonado por tecnlogia e desenvolvimento web e Teste de de Software</p>
  
  
  
