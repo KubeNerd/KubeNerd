@@ -2,7 +2,6 @@
 <h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabelho na empresa Processor atuando com Analista de Sistemas.</p>
 
-<em/>
 <h2><strong>Atividades:</strong></h2>
 <div>
  <a href="https://github.com/shabazzBr">
