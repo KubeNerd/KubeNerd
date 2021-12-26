@@ -1,6 +1,6 @@
 <h1>Olá! Eu sou o Vinicius!</h1>
 <h2><strong>Trabalho:</strong></h2>
-<p>Atualmente trabelho na empresa Processor atuando com Analista de Sistemas.</p>
+<p>Atualmente trabalho na empresa Processor.</p>
 
 <h2><strong>Atividades:</strong></h2>
 <div>
