@@ -44,12 +44,4 @@
 
  ![Profile View Counter](https://komarev.com/ghpvc/?username=Uvinicius)
  
- 
- <br/>
-
-
- # Top 5 Badges That Will Take Your GitHub Repository to the Next Level
- ## 1. GitHub Stats
- ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Uvinicius&show_icons=true)
-
 
