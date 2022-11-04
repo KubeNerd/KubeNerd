@@ -11,7 +11,8 @@
          "Locale": "Brasil",
          "Job": "Analista de Sistemas na Processor",
          "Languages":["JS", "Typescript", "Python"],"
-         "Libraries":["React.js", "Next.js", "Node.js", "Flask"]
+         "Libraries":["React.js", "Next.js", "Node.js", "Flask"],
+         "Discord":"<talarico.sh/>"
          
         }
    </code>
