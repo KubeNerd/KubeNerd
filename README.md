@@ -1,9 +1,8 @@
 <h1>Olá! Eu sou o Vinicius!</h1>
 <h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabalho na empresa Processor.</p>
-
-
    <code>
+   <pre>
       <?xml version="1.0" encoding="UTF-8"?>
          <Uvinicius>
            <book category="cooking">
@@ -25,6 +24,7 @@
              <price>39.95</price>
            </book>
          </Uvinicius>
+         </pre>
    </code>
 
  <br/>
