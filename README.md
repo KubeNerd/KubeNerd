@@ -2,7 +2,9 @@
 <h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabalho na empresa Processor.</p>
 
-<img src="https://tenor.com/view/coding-kira-lena-urzendowsky-how-to-sell-drugs-online-fast-hacking-gif-17761682"/>
+<code>
+   SELECT * FROM Life
+</code>
  <br/>
  
   ##   Here is a random joke that'll make you laugh!
