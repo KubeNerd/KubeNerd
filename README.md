@@ -2,6 +2,11 @@
 
    <pre>
    <code>
+      POST /echo/post/json HTTP/1.1
+      Host: reqbin.com
+      Authorization: Bearer mt0dgHmLJMVQhvjpNXDyA83vA_PxH23Y
+      Content-Type: application/json
+      Content-Length: 80
        {
          "Name": "Vinicius P",
          "Locale": "Brasil",
