@@ -25,7 +25,7 @@ BTW, if you´re looking for a Next.js starter, take a look at this [Next.js boil
       Content-Type: application/json
       Content-Length: 80
        {
-         "Name": "Vinicius P",
+         "Login": "Uvinicius",
          "Locale": "Brasil",
          "Job": "Analista de Sistemas na Processor",
          "Languages":["JS", "Typescript", "Python"],"
