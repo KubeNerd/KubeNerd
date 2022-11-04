@@ -4,12 +4,11 @@
    <pre>
    <code>
        {
-        "login": "Uvinicius",
-        "id": 28570880,
-        "node_id": "MDQ6VXNlcjI4NTcwODgw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/28570880?v=4",
+         "Name": "Vinicius P",
+         "Locale": "Brasil",
+         "Job": "Analista de Sistemas na Processor"
          
-      }
+         }
    </code>
    </pre>
 
