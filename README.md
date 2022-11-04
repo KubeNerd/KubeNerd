@@ -1,6 +1,5 @@
-<h1>Olá! Eu sou o Vinicius!</h1>
 
-   <pre>
+<pre>
    <code>
       POST /echo/post/json HTTP/1.1
       Host: reqbin.com
@@ -12,16 +11,15 @@
          "Locale": "Brasil",
          "Job": "Analista de Sistemas na Processor"
          
-         }
+        }
    </code>
-   </pre>
+</pre>
 
- <br/>
+<br/>
  
-  ##   Here is a random joke that'll make you laugh!
- ![Jokes Card](https://readme-jokes.vercel.app/api)
+##   Here is a random joke that'll make you laugh!
+![Jokes Card](https://readme-jokes.vercel.app/api)
 
- <br/>
-
- ![Profile View Counter](https://komarev.com/ghpvc/?username=Uvinicius)
+<br/>
+![Profile View Counter](https://komarev.com/ghpvc/?username=Uvinicius)
  
