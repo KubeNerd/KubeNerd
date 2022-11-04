@@ -3,28 +3,19 @@
 <p>Atualmente trabalho na empresa Processor.</p>
    <code>
    <pre>
-      <?xml version="1.0" encoding="UTF-8"?>
-         <Uvinicius>
-           <book category="cooking">
-             <title lang="en">Everyday Italian</title>
-             <author>Giada De Laurentiis</author>
-             <year>2005</year>
-             <price>30.00</price>
-           </book>
-           <book category="children">
-             <title lang="en">Harry Potter</title>
-             <author>J K. Rowling</author>
-             <year>2005</year>
-             <price>29.99</price>
-           </book>
-           <book category="web">
-             <title lang="en">Learning XML</title>
-             <author>Erik T. Ray</author>
-             <year>2003</year>
-             <price>39.95</price>
-           </book>
-         </Uvinicius>
-         </pre>
+            POST /echo/post/json HTTP/1.1
+            Host: reqbin.com
+            Authorization: Bearer mt0dgHmLJMVQhvjpNXDyA83vA_PxH23Y
+            Content-Type: application/json
+            Content-Length: 80
+
+            {
+              "Id": 12345,
+              "Customer": "John Smith",
+              "Quantity": 1,
+              "Price": 10.00
+            }
+        </pre>
    </code>
 
  <br/>
