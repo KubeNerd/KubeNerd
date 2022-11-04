@@ -12,7 +12,8 @@
          "Job": "Analista de Sistemas na Processor",
          "Languages":["JS", "Typescript", "Python"],"
          "Libraries":["React.js", "Next.js", "Node.js", "Flask"],
-         "Discord":"genexus#8302"
+         "Discord":"genexus#8302",
+         "Linkedin":"https://www.linkedin.com/in/vinicius-p-538340ba/"
          
         }
    </code>
