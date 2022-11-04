@@ -1,7 +1,7 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hello, I'm [Vinicius P]!
 
 
-<img src="https://giphy.com/media/K7StRcr7hagJpXROmb" width="30px">
+<img src="https://giphy.com/media/K7StRcr7hagJpXROmb/giphy.gif" width="30px">
 
 
 Since 2009 I've been living and breathing web development and creating modern and user friendly interfaces. I've had the chance to immerse myself in many different works and projects, helping to make this world a little better through design & code. ✨😍
