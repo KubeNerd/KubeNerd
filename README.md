@@ -12,7 +12,7 @@
          "Job": "Analista de Sistemas na Processor",
          "Languages":["JS", "Typescript", "Python"],"
          "Libraries":["React.js", "Next.js", "Node.js", "Flask"],
-         "Discord":"<talarico.sh/>"
+         "Discord":"genexus#8302"
          
         }
    </code>
