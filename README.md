@@ -2,9 +2,11 @@
 <h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabalho na empresa Processor.</p>
 
-<code>
-   SELECT * FROM Life
-</code>
+<pre>
+   <code>
+      SELECT * FROM myLife;
+   </code>
+</pre>
  <br/>
  
   ##   Here is a random joke that'll make you laugh!
