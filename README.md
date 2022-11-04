@@ -11,7 +11,7 @@
          "Locale": "Brasil",
          "Job": "Analista de Sistemas na Processor",
          "Languages":["JS", "Typescript", "Python"],"
-         "Libreries":["React.js", "Next.js", "Node.js", "Flask"]
+         "Libraries":["React.js", "Next.js", "Node.js", "Flask"]
          
         }
    </code>
