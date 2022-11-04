@@ -1,6 +1,5 @@
 <h1>Olá! Eu sou o Vinicius!</h1>
-<h2><strong>Trabalho:</strong></h2>
-<p>Atualmente trabalho na empresa Processor.</p>
+
    <pre>
    <code>
        {
