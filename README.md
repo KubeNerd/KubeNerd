@@ -1,7 +1,7 @@
 
 <pre>
    <code>
-      GET /echo/post/json HTTP/1.1
+      GET HTTP/1.1
       Host: localhost
       Authorization: Bearer mt0dgHmLJMVQhvjpNXDyA83vA_PxH23Y
       Content-Type: application/json
@@ -9,7 +9,9 @@
        {
          "Name": "Vinicius P",
          "Locale": "Brasil",
-         "Job": "Analista de Sistemas na Processor"
+         "Job": "Analista de Sistemas na Processor",
+         "Languages":["JS", "Typescript", "Python"],"
+         "Libreries":["React.js", "Next.js", "Node.js", "Flask"]
          
         }
    </code>
