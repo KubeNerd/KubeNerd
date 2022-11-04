@@ -23,5 +23,4 @@
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 <br/>
-![Profile View Counter](https://komarev.com/ghpvc/?username=Uvinicius)
  
