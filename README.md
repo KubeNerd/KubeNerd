@@ -1,6 +1,7 @@
 <h1>Olá! Eu sou o Vinicius!</h1>
 <h2><strong>Trabalho:</strong></h2>
 <p>Atualmente trabalho na empresa Processor.</p>
+   <pre>
    <code>
        {
         "login": "Uvinicius",
@@ -37,6 +38,7 @@
         "updated_at": "2022-10-01T02:46:10Z"
       }
    </code>
+   </pre>
 
  <br/>
  
