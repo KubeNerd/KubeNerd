@@ -12,11 +12,11 @@ Since 2018 I live and breathe web development and software testing ✨😍
       Content-Type: application/json
       Content-Length: 80
       {
-         "Login": "Uvinicius",
+         "Login": "rxjsvini",
          "Locale": "Brasil",
-         "Job": "Analista de Sistemas na Processor",
-         "Languages":["JS", "Typescript", "Python"],"
-         "Libraries":["React.js", "Next.js", "Node.js", "Flask"],
+         "Job": "Analista de Sistemas",
+         "Languages":["JS", "Typescript"],"
+         "Libraries":["React.js", "Next.js", "Node.js"],
          "Discord":"genexus#8302",
          "Linkedin":"https://www.linkedin.com/in/vinicius-p-538340ba/"  
        }
