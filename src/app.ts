@@ -48,9 +48,6 @@ async function generateMarkdown() {
   ---\n
   
 
-  
-  ---\n
-
   <details>\n
   <summary>Meus repositórios preferidos</summary>\n
   <br />
