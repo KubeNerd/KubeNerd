@@ -55,11 +55,6 @@ async function generateMarkdown() {
   <br />\n<br />
   ${await fetchGitHubData(myBestRepos)}\n
   </details>\n
-
-  <hr/>
-  # Aqui está uma piada aleatória que vai fazer você rir!
-  ${jokesCard}
-  
   <hr/>
     <summary>Recent Newsletters</summary>\n
   <br />
