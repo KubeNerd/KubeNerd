@@ -1,26 +1,27 @@
 <div align="center">
-<p><img src="https://img.shields.io/badge/-Newsletter-3B7EBF?style=for-the-badge&amp;logo=Substack&amp;logoColor=white&amp;link=https://bawd.bolajiayodeji.com" alt="Newsletter Badge"> <img src="https://img.shields.io/badge/-LinkedIn-3B7EBF?style=for-the-badge&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/vinicius-p-538340ba/" alt="LinkedIn Badge"> <img src="https://img.shields.io/badge/-Twitter-3B7EBF?style=for-the-badge&amp;logo=Twitter&amp;logoColor=white&amp;link=https://twitter.com/@engineer_yaml" alt="Twitter Badge"> <img src="https://komarev.com/ghpvc/?username=your_github_username&amp;style=for-the-badge" alt="Profile Views Count Badge"></p>
-<h2>✨ Sobre mim ✨</h2>
-<p>Desde 2018 vivo e respiro desenvolvimento web e testes de software.</p>
-<p>🚀 Amante de tecnologia e automação.</p>
-<h2>🌍 Experiências Profissionais 🌍</h2>
-<p><a href="https://www.linkedin.com/in/vinicius-p-538340ba/">Ver currículo completo</a></p>
-<h2>🧑‍🎓 Formações Acadêmicas 🏫</h2>
-<p><a href="https://cursos.alura.com.br/">Curso Full Stack Developer - Alura</a></p>
-<h2>🛠 Ferramentas e Tecnologias 🛠</h2>
-<ul>
-<li>HTML, CSS, JavaScript, TypeScript</li>
-<li>Node.js, Express, Next.js</li>
-<li>React.js, Redux, Context API</li>
-<li>Testing Library, Jest, Cypress</li>
+<hr>
+<p>Olá 👋🏾! Sou um profissional de tecnologia focado em análise de sistemas, sustentação de sistemas, DevOps, e CI/CD. Tenho experiência em criar e manter infraestruturas automatizadas, implementar pipelines de integração e entrega contínua, e garantir a alta disponibilidade e performance dos sistemas.</p>
+  <img src="https://media.giphy.com/media/yAGIvCiwPJn5C/giphy.gif">
+<hr>
+<hr>
+  <details>
+  <summary>Meus repositórios preferidos</summary>
+  <br />
+  Alguns dos meus melhores repositórios:
+  <br />
+<br />
+  <ul><li><a href=https://github.com/RxJSVini/aluratube target="_blank" rel="noopener noreferrer">RxJSVini/aluratube</a> (<b>0</b> ✨ and <b>0</b> 🍴): Aluratube - Desenvolvido durante a imersão React da Alura no final de 2022</li>
+<li>More coming soon :).</li>
 </ul>
-<h2>🌐 Redes Sociais 🌐</h2>
-<ul>
-<li><a href="https://instagram.com/_your_username_">Instagram</a></li>
-<li><a href="https://www.facebook.com/your_page_">Facebook</a></li>
-<li><a href="https://www.linkedin.com/in/vinicius-p-538340ba/">LinkedIn</a></li>
-<li><a href="https://wa.me/+55XXXXXXXXXXX">WhatsApp</a></li>
-<li><a href="https://t.me/your_username_">Telegram</a></li>
-<li><a href="mailto:_your_email@example.com_">Gmail</a></li>
-</ul>
-</div>
+  </details>
+  <hr/>
+  # Aqui está uma piada aleatória que vai fazer você rir!
+  ![Jokes Card](https://readme-jokes.vercel.app/api)
+  <hr/>
+    <summary>Recent Newsletters</summary>
+  <br />
+  <ul>
+    <li><a href=https://www.techradar.com/phones/google-pixel-phones/bargain-alert-get-a-256gb-google-pixel-8-with-a-pair-of-pixel-buds-for-just-pound669 target="_blank" rel="noopener noreferrer"> Bargain alert: get a 256GB Google Pixel 8 with a pair of Pixel Buds Pro for just £669  </a> (27/2/2024).</li><li><a href=https://www.techradar.com/computing/artificial-intelligence/google-isnt-done-trying-to-demonstrate-geminis-genius-and-is-working-on-integrating-it-directly-into-android-devices target="_blank" rel="noopener noreferrer"> Google isn’t done trying to demonstrate Gemini’s genius and is working on integrating it directly into Android devices </a> (27/2/2024).</li><li><a href=https://www.techradar.com/phones/clicks-weird-iphone-keyboard-case-has-finally-clicked-with-me target="_blank" rel="noopener noreferrer"> Clicks’ weird iPhone keyboard case has finally clicked with me  </a> (27/2/2024).</li><li><a href=https://www.techradar.com/phones/tecno-unveils-new-model-megabook-t16-pro-2024-ultra-empowered-by-the-latest-intel-core-ultra-processors target="_blank" rel="noopener noreferrer"> Tecno unveils new model Megabook T16 Pro 2024 Ultra empowered by the latest Intel Core Ultra processors </a> (27/2/2024).</li><li><a href=https://www.techradar.com/streaming/the-youtube-kids-app-on-smart-tvs-will-stop-working-in-july-and-thats-a-worry target="_blank" rel="noopener noreferrer"> The YouTube Kids app on smart TVs will stop working in July, and that's a worry </a> (27/2/2024).</li>
+  </ul>
+<p>Read more newsletter issues: <a href="https://techradar.com/feeds.xml">https://techradar.com/feeds.xml</a>.</p>
+  </details>

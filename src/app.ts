@@ -1,7 +1,5 @@
 import * as fs from "fs/promises"; // Usando fs/promises para suporte a async/await
-import markdownIt from "markdown-it"; // Importando markdown-it
-// import { fetchRssData } from "./fetchRssData";
-// import { fetchGitHubData } from "./fetchGitHubData";
+import markdownIt from "markdown-it";
 
 
 import { fetchGitHubData } from "./fetchGithubData";
@@ -15,72 +13,74 @@ const md = markdownIt({
 });
 
 // URLs e informações de usuário
-const githubUsername = "your_github_username";
-const newsletterUrl = "https://bawd.bolajiayodeji.com";
-const twitterUrl = "https://twitter.com/@engineer_yaml";
+const twitterUsername = '@engineer_yaml'
+const twitterUrl = `https://twitter.com/${twitterUsername}`;
 const linkedinUrl = "https://www.linkedin.com/in/vinicius-p-538340ba/";
+const githubUsername = "RxJSVini";
+const githubSponsorsUrl = `https://github.com/sponsors/${githubUsername}`;
 
-// Função para gerar o Markdown dinamicamente
+/// Atualize os URLs conforme necessário
+const hackerNewssRSS = "https://techradar.com/feeds.xml";
+
+// Repositórios relevantes para suas áreas de foco
+const myBestRepos = ["aluratube"];
+
+
 async function generateMarkdown() {
-  // Geração dos badges
-  const badges = [
-    `![Newsletter Badge](https://img.shields.io/badge/-Newsletter-3B7EBF?style=for-the-badge&logo=Substack&logoColor=white&link=${newsletterUrl})`,
-    `![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-3B7EBF?style=for-the-badge&logo=Linkedin&logoColor=white&link=${linkedinUrl})`,
-    `![Twitter Badge](https://img.shields.io/badge/-Twitter-3B7EBF?style=for-the-badge&logo=Twitter&logoColor=white&link=${twitterUrl})`,
-    `![Profile Views Count Badge](https://komarev.com/ghpvc/?username=${githubUsername}&style=for-the-badge)`,
-  ].join(" ");
+  // Gerando a seção de estatísticas do GitHub opcionalmente
+  const githubStatsCard = `[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true)](https://github.com/${githubUsername})`;
+  const jokesCard = `![Jokes Card](https://readme-jokes.vercel.app/api)`;
+  const twitterBadge = `[![Twitter Badge](https://img.shields.io/badge/-${twitterUsername}-3B7EBF?style=for-the-badge&logo=x&logoColor=white)](${twitterUrl})`;
+  const linkedinBadge = `[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-3B7EBF?style=for-the-badge&logo=Linkedin&logoColor=white)](${linkedinUrl})`;
+  const githubSponsorsBadge = `[![GitHub Sponsors Badge](https://img.shields.io/badge/-github%20sponsors-3B7EBF?style=for-the-badge&logo=github&logoColor=white)](${githubSponsorsUrl})`;
+  const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=3B7EBF&text_color=FFF&icon_color=3B7EBF&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${githubUsername}/${githubUsername}#gh-dark-mode-only)`;
+  const profileCountBadge = `![Profile Views Count Badge](https://komarev.com/ghpvc/?username=${githubUsername}&style=for-the-badge)`;
 
-  // Seção RSS (simulando retorno da função fetchRssData)
-  const rssSection = await fetchRssData("https://hackernewsrss.com/feed.xml");
 
-  // Seção GitHub (simulando retorno da função fetchGitHubData)
-  const githubDataSection = await fetchGitHubData(["nlw-expert", "aluratube"]);
+  // Estrutura básica do README.md
+  const markdownText = `<div align="center">\n
 
-  // Concatenação das seções para formar o README
-  const readmeContent = md.render(`
-<div align="center">
+  ---\n
 
-${badges}
+  Olá 👋🏾! Sou um profissional de tecnologia focado em análise de sistemas, sustentação de sistemas, DevOps, e CI/CD. Tenho experiência em criar e manter infraestruturas automatizadas, implementar pipelines de integração e entrega contínua, e garantir a alta disponibilidade e performance dos sistemas.\n
+  <img src="https://media.giphy.com/media/yAGIvCiwPJn5C/giphy.gif">
+ 
+  ---\n
+  
 
-## ✨ Sobre mim ✨
+  
+  ---\n
 
-Desde 2018 vivo e respiro desenvolvimento web e testes de software.
+  <details>\n
+  <summary>Meus repositórios preferidos</summary>\n
+  <br />
+  Alguns dos meus melhores repositórios:\n
+  <br />\n<br />
+  ${await fetchGitHubData(myBestRepos)}\n
+  </details>\n
 
-🚀 Amante de tecnologia e automação.
+  <hr/>
+  # Aqui está uma piada aleatória que vai fazer você rir!
+  ${jokesCard}
+  
+  <hr/>
+    <summary>Recent Newsletters</summary>\n
+  <br />
+    ${await fetchRssData(hackerNewssRSS)}\n
+  </details>\n
+\n`;
 
-<h2>🌍 Experiências Profissionais 🌍</h2>
 
-[Ver currículo completo](https://www.linkedin.com/in/vinicius-p-538340ba/)
-
-<h2>🧑‍🎓 Formações Acadêmicas 🏫</h2>
-
-[Curso Full Stack Developer - Alura](https://cursos.alura.com.br/)
-
-<h2>🛠 Ferramentas e Tecnologias 🛠</h2>
-
-- HTML, CSS, JavaScript, TypeScript
-- Node.js, Express, Next.js
-- React.js, Redux, Context API
-- Testing Library, Jest, Cypress
-
-## 🌐 Redes Sociais 🌐
-
-- [Instagram](https://instagram.com/_your_username_)
-- [Facebook](https://www.facebook.com/your_page_)
-- [LinkedIn](https://www.linkedin.com/in/vinicius-p-538340ba/)
-- [WhatsApp](https://wa.me/+55XXXXXXXXXXX)
-- [Telegram](https://t.me/your_username_)
-- [Gmail](mailto:_your_email@example.com_)
-
-</div>
-`);
+  // Processando e salvando o markdown
+  const result = md.render(markdownText);
 
   try {
-    await fs.writeFile("README.md", readmeContent);
+    await fs.writeFile("README.md", result);
     console.log("✅ README.md file was successfully generated.");
   } catch (error) {
     console.error(`Something went wrong: ${error}`);
   }
 }
+
 
 generateMarkdown();
