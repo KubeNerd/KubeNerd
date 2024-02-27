@@ -1,7 +1,11 @@
 import * as fs from "fs/promises"; // Usando fs/promises para suporte a async/await
 import markdownIt from "markdown-it"; // Importando markdown-it
+// import { fetchRssData } from "./fetchRssData";
+// import { fetchGitHubData } from "./fetchGitHubData";
+
+
+import { fetchGitHubData } from "./fetchGithubData";
 import { fetchRssData } from "./fetchRssData";
-import { fetchGitHubData } from "./fetchGitHubData";
 
 // Configuração inicial do markdown-it
 const md = markdownIt({
