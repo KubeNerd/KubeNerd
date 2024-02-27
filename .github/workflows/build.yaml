@@ -1,0 +1,30 @@
+name: Profile README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 6 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: "18"
+    - name: Install Dependencies
+      run: npm install
+    - name: Rebuild README.md File
+      run: npm run start
+    - name: Commit and Push if Changed
+      run: |-
+        git add .
+        git diff
+        git config --global user.email "viniciuspoa2@hotmail.com"
+        git config --global user.name "BA Actions Bot"
+        git commit -m "docs: auto-update README.md" -a || exit 0
+        git push

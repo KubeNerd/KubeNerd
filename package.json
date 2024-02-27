@@ -1,0 +1,27 @@
+{
+    "name": "github-auto-update",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsx --watch ./src/app.ts",
+      "start": "node ./build/src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/markdown-it": "^13.0.7",
+      "@types/node": "^20.11.20",
+      "tsx": "^4.7.1",
+      "typescript": "^5.3.3"
+    },
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "markdown-it": "^14.0.0",
+      "rss-parser": "^3.13.0",
+      "tsc-watch": "^6.0.4"
+    }
+  }
+  
