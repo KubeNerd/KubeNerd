@@ -14,9 +14,6 @@
 </ul>
   </details>
   <hr/>
-  # Aqui está uma piada aleatória que vai fazer você rir!
-  ![Jokes Card](https://readme-jokes.vercel.app/api)
-  <hr/>
     <summary>Recent Newsletters</summary>
   <br />
   <ul>
