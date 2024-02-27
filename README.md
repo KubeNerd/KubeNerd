@@ -3,7 +3,6 @@
 <p>Olá 👋🏾! Sou um profissional de tecnologia focado em análise de sistemas, sustentação de sistemas, DevOps, e CI/CD. Tenho experiência em criar e manter infraestruturas automatizadas, implementar pipelines de integração e entrega contínua, e garantir a alta disponibilidade e performance dos sistemas.</p>
   <img src="https://media.giphy.com/media/yAGIvCiwPJn5C/giphy.gif">
 <hr>
-<hr>
   <details>
   <summary>Meus repositórios preferidos</summary>
   <br />
