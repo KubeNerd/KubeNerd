@@ -28,3 +28,9 @@ jobs:
         git config --global user.name "BA Actions Bot"
         git commit -m "docs: auto-update README.md" -a || exit 0
         git push
+    - name: Login in dockerhub
+      uses: docker/login-action@v3.0.0
+      with:
+        username: 'viniciuspoa2'
+        password: ${{ secrets.DOCKER_HUB_TOKEN }}
+    
