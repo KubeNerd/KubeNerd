@@ -1,7 +1,7 @@
 name: Profile README
 
 on:
-  # push:
+  push:
   workflow_dispatch:
   schedule:
   - cron: "*/2 * * * *"
