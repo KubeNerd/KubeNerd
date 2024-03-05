@@ -20,7 +20,7 @@ const githubUsername = "RxJSVini";
 const githubSponsorsUrl = `https://github.com/sponsors/${githubUsername}`;
 
 /// Atualize os URLs conforme necessário
-const hackerNewssRSS = "https://techradar.com/feeds.xml";
+const hackerNewssRSS = "https://aralroca.com/rss.xml";
 
 // Repositórios relevantes para suas áreas de foco
 const myBestRepos = ["aluratube"];
