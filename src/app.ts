@@ -20,10 +20,10 @@ const githubUsername = "RxJSVini";
 const githubSponsorsUrl = `https://github.com/sponsors/${githubUsername}`;
 
 /// Atualize os URLs conforme necessário
-const hackerNewssRSS = "https://hn.invades.space/hn_gems_rss.xml";
+const hackerNewssRSS = "https://www.tabnews.com.br/recentes/rss";
 
 // Repositórios relevantes para suas áreas de foco
-const myBestRepos = ["aluratube"];
+const myBestRepos = ["aluratube","nlw-ia"];
 
 
 async function generateMarkdown() {
