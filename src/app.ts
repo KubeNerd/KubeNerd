@@ -16,7 +16,7 @@ const md = markdownIt({
 const twitterUsername = '@engineer_yaml'
 const twitterUrl = `https://twitter.com/${twitterUsername}`;
 const linkedinUrl = "https://www.linkedin.com/in/vinicius-p-538340ba/";
-const githubUsername = "RxJSVini";
+const githubUsername = "KubeNerd";
 const githubSponsorsUrl = `https://github.com/sponsors/${githubUsername}`;
 
 /// Atualize os URLs conforme necessário
