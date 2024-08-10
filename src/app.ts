@@ -23,7 +23,7 @@ const githubSponsorsUrl = `https://github.com/sponsors/${githubUsername}`;
 const hackerNewssRSS = "https://www.tabnews.com.br/recentes/rss";
 
 // Repositórios relevantes para suas áreas de foco
-const myBestRepos = ["aluratube","nlw-ia"];
+const myBestRepos = ["aluratube","nlw-ia", "rest-api-flask-github-actions-k8s", "nlw-journey-ia"];
 
 
 async function generateMarkdown() {
